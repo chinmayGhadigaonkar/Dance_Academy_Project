@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.services h1 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background: url("../static/contact.jpg") no-repeat center center/cover; */
+
+}

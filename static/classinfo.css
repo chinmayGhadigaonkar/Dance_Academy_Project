@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Baloo+Bhaijaan+2:wght@700&family=Lobster&family=PT+Serif:wght@700&family=Playball&family=Trochut&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cinfo {
+    align-items: center;
+    text-align: center;
+    height: 310px;
+    width: 783px;
+    /* padding: 20PX; */
+    margin: 0PX AUTO;
+    /* background: rgb(129, 129, 129); */
+    /* BORDER: 2PX SOLID; */
+    color: rgb(0, 0, 0);
+    PADDING: 22px;
+   
+}
+
+.cinfo h1{
+    padding: 22px;
+   font-size: 45px;
+   font-family: 'Lobster', cursive;
+}
+.cinfo p{
+    padding: 22px;
+    font-size: 17px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.cinfo button{
+    height: 51px;
+    width: 132px;
+    padding: 12px;
+    margin-left: 0px;
+    margin-top: 23px;
+    border-radius: 37px;
+    font-size: 14px;
+    background: #000000;
+    color: rgb(190, 188, 188);
+    font-family: 'Rowdies', cursive;
+}
+
+.cinfo1{
+    padding-top: 28px;
+    /* border: 2px solid rgb(252, 42, 42); */
+    align-items: center;
+    height: 1005px;
+    background:gray;
+}
+    
+#content{
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: start;
+    height: 884px;
+    width: 912px;
+    padding-top: 27px;
+    margin: 0PX AUTO;
+    padding-left: 28px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 22px;
+    /* background: url(../static/hip-hop-dance-removebg-preview.png) no-repeat center center/cover; */
+ 
+    border-radius: 29px;
+}
+
+#content h2{
+    font-size: 27px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    
+}
+#content p{
+    font-size: 20px;
+    font-family: 'League Gothic', sans-serif;
+}

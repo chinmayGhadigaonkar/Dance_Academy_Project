@@ -1,0 +1,17 @@
+extend layout.pug 
+
+block style
+    style
+        include ../static/style.css 
+        include ../static/contact.css
+block content
+    .contact 
+        .contact1  
+            h1  Contact Us 
+            form  
+                input(type="text", ,placeholder="Enter Your Firstname" required)
+                input(type="text", value="" ,placeholder="Enter Your Lastname" required)
+                input(type="text", value="" ,placeholder="Enter Your Email" required)
+                input(type="text", value="" ,placeholder="Enter Your Phone Number" required)
+                .btn1 
+                    button(type="Submit") Submit

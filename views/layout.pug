@@ -1,0 +1,23 @@
+//- layout.pug
+html
+  head
+    title Dance Academy 
+    //- block scripts
+    //-   script(src='/jquery.js')
+    block style
+        style
+            include ../static/style.css
+body
+    nav#navbar
+        div#logo
+            H1 Dance Academy
+        ul 
+            li #[a(href="http://localhost:8000/home") Home]
+            li #[a(href="http://localhost:8000/About") About]
+            li #[a(href="http://localhost:8000/service") Services]
+            li #[a(href="http://localhost:8000/classinfo") Class Info]
+            li #[a(href="http://localhost:8000/contact") Contact Us]
+    block content    
+    block foot 
+        footer 
+          Copyright &copy; www.DanceAcademy.com. All rights reserved!
